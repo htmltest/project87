@@ -1,0 +1,105 @@
+.home-family-text {position:absolute; left:0; top:94px; right:0; text-align:center; font-size:37px; line-height:53px; color:#6cb028; font-weight:bold}
+.home-family-text img {vertical-align:middle; margin:4px 0 0 9px}
+.home-family-play {position:fixed; left:50%; top:240px; z-index:201; display:block; margin:0 0 0 -30px; width:59px; height:59px; border-radius:50%; background:rgba(99, 188, 27, .8)}
+.videoplay .home-family-play {display:none}
+.home-family-play:hover {background:rgba(99, 188, 27, 1)}
+.home-family-play:after {content:""; display:block; width:0; height:0; border-left:16px solid #fff; border-top:10px solid transparent; border-bottom:10px solid transparent; position:absolute; left:23px; top:50%; margin:-10px 0 0 0}
+.home-family-video {display:none; position:absolute; left:0; top:0; right:0; padding:56.25% 0 0 0; background:#fff}
+.videoplay .home-family-video {display:block}
+.home-family-video video {position:absolute; left:0; top:0; display:block; width:100%; height:100%}
+.videoplay .paper {padding-top:37.5%}
+.videoplay .paper-roll {-webkit-transform:translateY(-80px);-ms-transform:translateY(-80px);transform:translateY(-80px)}
+
+.header-inner {text-align:center}
+.header-inner .col-md-4 {float:none; display:inline-block; vertical-align:top; width:auto; padding:0 50px 0 0}
+.header-inner .col-md-16 {float:none; display:inline-block; vertical-align:top; width:auto; padding:0 50px 0 0}
+
+.footnote {font-size:13px; line-height:16px; padding:35px 0 20px 0}
+
+.footer-content {font-size:14px; line-height:18px}
+
+.products {padding-top:190px}
+
+.why__title {margin:0 0 16px 0}
+.why__subtitle {text-transform:uppercase; font-weight:bold; text-align:center; font-size:28px; line-height:30px}
+.products.is-active .why-item--anim{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);opacity:1}
+.products__outer {padding:0; overflow:visible}
+@media screen and (min-width:1000px) {
+    .products__inner {padding:0; margin-top:20px}
+    .products__images {margin:-60px 0 0 0; padding:0; text-align:center; position:relative; opacity:0; transition:opacity .5s ease}
+    .products.is-active .products__images {opacity:1}
+    .products__images img {max-width:100%; width:auto}
+    .products__btn {text-transform:uppercase; width:296px; height:50px; box-sizing:border-box; text-align:center; font-size:18px; line-height:50px; padding:0; position:relative; z-index:999}
+    .products__btn-wrap {padding-top:0; margin-top:-35px}
+    .products__recommend {position:absolute; left:50%; margin-left:210px; top:40px; width:200px; height:201px; background:url(static/images/home/products-recommend.png)}
+    .products__recommend_text {display:none}
+}
+
+.everyday {padding-top:116px; padding-bottom:130px; overflow:visible; z-index:200}
+.products__sticker {-webkit-transform:translateY(-400px);-ms-transform:translateY(-400px);transform:translateY(-400px)}
+.products__sticker {width:333px}
+.products.is-active .products__sticker{opacity:1;-webkit-transform:translateY(61px);-ms-transform:translateY(61px);transform:translateY(61px)}
+.everyday-icons__item--eat {transform:scale(1.2)}
+.everyday-icons__item--paper {transform:scale(1.2)}
+.everyday-icons__item + .everyday-icons__item {margin-left:136px}
+.everyday-icons__item--bed {transform:scale(1.2)}
+
+@media screen and (max-width:999px) {
+    .products__sticker {width:212px}
+    .products__sticker,
+    .products.is-active .products__sticker{top:60px; margin-top:0; -webkit-transform:translateY(-120px);-ms-transform:translateY(-120px);transform:translateY(-120px)}
+}
+
+.everyday__title {font-size:3rem; line-height:1em; margin:0 0 76px 0}
+
+.why__content {z-index:21; margin-top:-19px}
+.why-item__title {font-size:1.75rem; line-height:2em}
+.why-item__text {font-size:1.5rem; line-height:1.25em}
+.why-item__icon {width:65px; height:65px}
+.why-item--anim-1 .why-item__icon {width:76px; height:74px}
+.why-item--anim-3 .why-item__icon {width:77px; height:77px}
+.why__outer {overflow:visible}
+.why-item__inner {padding-left:95px}
+.why__list {text-align:left}
+.why-item--anim-1 {top:-400px; left:-70px; margin-bottom:-100px}
+.why-item--anim-3 {top:-400px; left:40px; margin-bottom:-100px}
+.why-item__text ul {list-style:none}
+.why-item__text li {position:relative}
+.why-item__text li:before {content:""; display:block; width:11px; height:8px; position:absolute; left:-23px; top:5px; background:url(static/images/home/li.png)}
+
+.home-scroll__btn  {font-size:19px}
+
+@media screen and (min-width:1000px) {
+    .paper-asks {margin-right:20%}
+    .paper-test {margin-left:20%}
+    .paper-test__text {font-size:20px; line-height:24px}
+    .why__outer {padding-bottom:0}
+}
+
+@media screen and (max-width:999px) {
+    .home-family-text {font-size:19px; line-height:19px; top:20px}
+    .home-family-text img {width:103px; height:33px}
+    .home-family-play {top:160px}
+    .home-family {height:325px}
+    .paper {padding-top:260px}
+    .why-item--anim-1 {top:auto; left:auto}
+    .why-item--anim-3 {top:auto; left:auto}
+    .products__clouds {display:none}
+    .why-item__title {font-size:24px; line-height:24px; text-transform:none}
+    .why-item__text {font-size:16px; line-height:22px}
+    .why-item__icon {width:45px; height:45px}
+    .why-item--anim-1 .why-item__icon {width:45px; height:45px}
+    .why-item--anim-3 .why-item__icon {width:45px; height:45px}
+    .why-item__inner {padding-left:55px}
+    .products {padding-top:30px}
+    .everyday-icons__item--eat {transform:scale(1)}
+    .everyday-icons__item--paper {transform:scale(1)}
+    .everyday-icons__item + .everyday-icons__item {margin-left:30px}
+    .everyday-icons__item--bed {transform:scale(1)}
+    .everyday__title {font-size:24px; line-height:24px}
+    .everyday__text {font-size:14px; line-height:16px}
+    .why__subtitle {text-transform:none; padding-top:105px}
+    .products__images {margin-left:-75px; margin-right:-75px}
+    .products__recommend {position:relative; text-align:center}
+    .products__recommend_text {display:block; font-size:1.25rem; line-height:1em; margin:1em 0; color:#fff; font-weight:bold;}
+}
