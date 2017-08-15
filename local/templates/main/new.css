@@ -52,17 +52,18 @@
 
 .everyday__title {font-size:3rem; line-height:1em; margin:0 0 76px 0}
 
-.why__content {z-index:21; margin-top:-19px}
-.why-item__title {font-size:1.75rem; line-height:2em}
-.why-item__text {font-size:1.5rem; line-height:1.25em}
+.why__content {z-index:21; margin-top:-39px}
+.why-item__title {font-size:1.5rem; line-height:2em}
+.why-item__text {font-size:1.25rem; line-height:1.25em}
+.why-item__text sup {font-size:12px; top:-10px; position:relative}
 .why-item__icon {width:65px; height:65px}
 .why-item--anim-1 .why-item__icon {width:76px; height:74px}
 .why-item--anim-3 .why-item__icon {width:77px; height:77px}
 .why__outer {overflow:visible}
 .why-item__inner {padding-left:95px}
 .why__list {text-align:left}
-.why-item--anim-1 {top:-400px; left:-70px; margin-bottom:-100px}
-.why-item--anim-3 {top:-400px; left:40px; margin-bottom:-100px}
+.why-item--anim-1 {top:-350px; left:-70px; margin-bottom:-100px}
+.why-item--anim-3 {top:-350px; left:40px; margin-bottom:-100px}
 .why-item__text ul {list-style:none}
 .why-item__text li {position:relative}
 .why-item__text li:before {content:""; display:block; width:11px; height:8px; position:absolute; left:-23px; top:5px; background:url(static/images/home/li.png)}
@@ -85,12 +86,14 @@
     .why-item--anim-1 {top:auto; left:auto}
     .why-item--anim-3 {top:auto; left:auto}
     .products__clouds {display:none}
-    .why-item__title {font-size:24px; line-height:24px; text-transform:none}
-    .why-item__text {font-size:16px; line-height:22px}
+    .why-item__title {font-size:21px; line-height:23px; text-transform:none}
+    .why-item__text {font-size:21px; line-height:23px}
     .why-item__icon {width:45px; height:45px}
     .why-item--anim-1 .why-item__icon {width:45px; height:45px}
     .why-item--anim-3 .why-item__icon {width:45px; height:45px}
     .why-item__inner {padding-left:55px}
+    .why-item--anim-1 {top:auto; margin-bottom:0}
+    .why-item--anim-3 {top:-auto; margin-bottom:0}
     .products {padding-top:30px}
     .everyday-icons__item--eat {transform:scale(1)}
     .everyday-icons__item--paper {transform:scale(1)}
@@ -98,8 +101,14 @@
     .everyday-icons__item--bed {transform:scale(1)}
     .everyday__title {font-size:24px; line-height:24px}
     .everyday__text {font-size:14px; line-height:16px}
-    .why__subtitle {text-transform:none; padding-top:105px}
+    .why__subtitle {text-transform:none; padding-top:71px; font-size:24px; line-height:30px}
+    .why__subtitle:after {content:""; display:block; margin:23px auto -40px auto; width:200px; height:201px; background:url(static/images/home/products-recommend.png)}
+    .products__btn {text-transform:none; width:auto; display:block; height:44px; padding:0; box-sizing:border-box; text-align:center; font-size:20px; line-height:44px; padding:0; position:relative; z-index:999}
+    .products__btn-wrap {padding-top:0; margin:0 20px 40px 20px}
     .products__images {margin-left:-75px; margin-right:-75px}
     .products__recommend {position:relative; text-align:center}
     .products__recommend_text {display:block; font-size:1.25rem; line-height:1em; margin:1em 0; color:#fff; font-weight:bold;}
+    .footer-rudfl {font-size:11px; line-height:15px; top:5px; position:relative}
 }
+
+.footer-copyright a {color:#8dc457; text-decoration:none}
