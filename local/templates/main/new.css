@@ -47,7 +47,7 @@
 @media screen and (max-width:999px) {
     .products__sticker {width:212px}
     .products__sticker,
-    .products.is-active .products__sticker{top:60px; margin-top:0; -webkit-transform:translateY(-120px);-ms-transform:translateY(-120px);transform:translateY(-120px)}
+    .products.is-active .products__sticker{top:96px; margin-top:0; -webkit-transform:translateY(-120px);-ms-transform:translateY(-120px);transform:translateY(-120px)}
 }
 
 .everyday__title {font-size:3rem; line-height:1em; margin:0 0 76px 0}
@@ -75,6 +75,16 @@
     .paper-test {margin-left:20%}
     .paper-test__text {font-size:20px; line-height:24px}
     .why__outer {padding-bottom:0}
+}
+
+@media screen and (max-width:1280px) {
+    .why-item__title {font-size:18px; line-height:23px; text-transform:none}
+    .why-item__text {font-size:18px; line-height:23px}
+    .why-item--anim-3 {left:0}
+}
+
+@media screen and (min-width:1000px) {
+    .footer-rudfl {top:-39px; position:relative}
 }
 
 @media screen and (max-width:999px) {
@@ -109,6 +119,12 @@
     .products__recommend {position:relative; text-align:center}
     .products__recommend_text {display:block; font-size:1.25rem; line-height:1em; margin:1em 0; color:#fff; font-weight:bold;}
     .footer-rudfl {font-size:11px; line-height:15px; top:5px; position:relative}
+    .nav-map-item {display:block}
+
+    .everyday:after {content:""; display:block; position:absolute; left:0; top:0; right:0; height:8px; background:url(static/images/home/curve-1.png) no-repeat center top; background-size:100%}
+    .paper-roll:after {content:""; display:block; position:absolute; left:0; bottom:0; right:0; height:16px; background:url(static/images/home/curve-2.png) no-repeat center bottom; background-size:100%}
+    .products:before {content:""; display:block; position:absolute; left:0; top:-9px; right:0; height:9px; background:url(static/images/home/curve-3.png) no-repeat center top; background-size:100%}
+    .products:after {content:""; display:block; position:absolute; left:0; bottom:-7px; right:0; height:7px; background:url(static/images/home/curve-4.png) no-repeat center top; background-size:100%}
 }
 
 .footer-copyright a {color:#8dc457; text-decoration:none}
