@@ -1,6 +1,10 @@
-.home-family-text {position:absolute; left:0; top:94px; right:0; text-align:center; font-size:37px; line-height:53px; color:#6cb028; font-weight:bold}
+.home-family {top:130px; height:432px; background-size:auto; background-position:center top}
+.paper {padding-top:390px}
+.paper-roll-wrap::after, .paper-roll-wrap::before {height:148px}
+
+.home-family-text {position:absolute; left:0; top:24px; right:0; text-align:center; font-size:37px; line-height:53px; color:#6cb028; font-weight:bold}
 .home-family-text img {vertical-align:middle; margin:4px 0 0 9px}
-.home-family-play {position:fixed; left:50%; top:240px; z-index:201; display:block; margin:0 0 0 -30px; width:59px; height:59px; border-radius:50%; background:rgba(99, 188, 27, .8)}
+.home-family-play {position:fixed; left:50%; top:300px; z-index:201; display:block; margin:0 0 0 -30px; width:59px; height:59px; border-radius:50%; background:rgba(99, 188, 27, .8)}
 .videoplay .home-family-play {display:none}
 .home-family-play:hover {background:rgba(99, 188, 27, 1)}
 .home-family-play:after {content:""; display:block; width:0; height:0; border-left:16px solid #fff; border-top:10px solid transparent; border-bottom:10px solid transparent; position:absolute; left:23px; top:50%; margin:-10px 0 0 0}
@@ -18,7 +22,7 @@
 
 .footer-content {font-size:14px; line-height:18px}
 
-.products {padding-top:190px}
+.products {padding-top:190px; padding-bottom:40px}
 
 .why__title {margin:0 0 16px 0}
 .why__subtitle {text-transform:uppercase; font-weight:bold; text-align:center; font-size:28px; line-height:30px}
@@ -55,7 +59,7 @@
 .why__content {z-index:21; margin-top:-39px}
 .why-item__title {font-size:1.5rem; line-height:2em}
 .why-item__text {font-size:1.25rem; line-height:1.25em}
-.why-item__text sup {font-size:12px; top:-10px; position:relative}
+.why-item__text sup {font-size:11px; top:-8px; left:3px; position:relative}
 .why-item__icon {width:65px; height:65px}
 .why-item--anim-1 .why-item__icon {width:76px; height:74px}
 .why-item--anim-3 .why-item__icon {width:77px; height:77px}
@@ -88,9 +92,10 @@
 }
 
 @media screen and (max-width:999px) {
-    .home-family-text {font-size:19px; line-height:19px; top:20px}
+    .home-family  {top:40px; height:400px !important}
+    .home-family-text {font-size:19px; line-height:19px; top:100px}
     .home-family-text img {width:103px; height:33px}
-    .home-family-play {top:160px}
+    .home-family-play {top:210px}
     .home-family {height:325px}
     .paper {padding-top:260px}
     .why-item--anim-1 {top:auto; left:auto}
@@ -105,10 +110,7 @@
     .why-item--anim-1 {top:auto; margin-bottom:0}
     .why-item--anim-3 {top:-auto; margin-bottom:0}
     .products {padding-top:30px}
-    .everyday-icons__item--eat {transform:scale(1)}
-    .everyday-icons__item--paper {transform:scale(1)}
     .everyday-icons__item + .everyday-icons__item {margin-left:30px}
-    .everyday-icons__item--bed {transform:scale(1)}
     .everyday__title {font-size:24px; line-height:24px}
     .everyday__text {font-size:14px; line-height:16px}
     .why__subtitle {text-transform:none; padding-top:71px; font-size:24px; line-height:30px}
@@ -128,3 +130,24 @@
 }
 
 .footer-copyright a {color:#8dc457; text-decoration:none}
+
+@media screen and (max-width:980px) {
+    .home-family  {top:60px; height:300px !important; background:url(static/images/home/family-bg-mobile.jpg) no-repeat center top; background-size:auto}
+    .home-family-text {top:20px}
+    .home-family-play {top:140px}
+    .paper-roll-wrap::after, .paper-roll-wrap::before {top:-100px}
+    .paper {padding-top:270px}
+    .paper-roll {position:relative; z-index:50; height:380px; width:294px; margin:0 auto -90px; -webkit-transform:translateY(-90px); -ms-transform:translateY(-90px); transform:translateY(-90px); padding-top:30px; padding-left:24px; background:url(static/images/home/paper.png) top/100% auto no-repeat}
+    .videoplay .paper {padding-top:37.5%}
+    .videoplay .paper-roll {-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
+    .paper-today {text-align: center; text-transform: uppercase; font-weight: 700; font-size: 0.875rem; line-height: 1em}
+}
+
+@media screen and (max-width:767px) {
+    .home-family-text {top:20px}
+    .home-family-play {top:160px}
+    .paper-roll-wrap::after, .paper-roll-wrap::before {top:-100px}
+    .paper {padding-top:260px}
+    .videoplay .paper {padding-top:37.5%}
+    .videoplay .paper-roll {-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
+}
