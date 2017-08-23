@@ -134,13 +134,19 @@
 @media screen and (max-width:980px) {
     .home-family  {top:60px; height:300px !important; background:url(static/images/home/family-bg-mobile.jpg) no-repeat center top; background-size:auto}
     .home-family-text {top:20px}
-    .home-family-play {top:140px}
+    .home-family-play {top:160px}
     .paper-roll-wrap::after, .paper-roll-wrap::before {top:-100px}
-    .paper {padding-top:270px}
+    .paper {padding-top:260px}
     .paper-roll {position:relative; z-index:50; height:380px; width:294px; margin:0 auto -90px; -webkit-transform:translateY(-90px); -ms-transform:translateY(-90px); transform:translateY(-90px); padding-top:30px; padding-left:24px; background:url(static/images/home/paper.png) top/100% auto no-repeat}
     .videoplay .paper {padding-top:37.5%}
-    .videoplay .paper-roll {-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0)}
-    .paper-today {text-align: center; text-transform: uppercase; font-weight: 700; font-size: 0.875rem; line-height: 1em}
+    .videoplay .paper-roll {-webkit-transform:translateY(0); -ms-transform:translateY(0); transform:translateY(0)}
+    .paper-today__title {margin-bottom:10px}
+    .paper-today {text-align:center; text-transform:uppercase; font-weight:700; font-size:0.875rem; line-height:1em}
+    .paper-today__date {font-size:7.75rem; line-height:1em}
+    .paper-roll-wrap:before {z-index:100; right:50%; margin-right:97px; width:820px; background:url(static/images/home/paper-green-line-left.png) 100% 0/auto 100% no-repeat}
+    .paper-roll-wrap:after {z-index:40; left:50%; margin-left:118px; width:770px; background:url(static/images/home/paper-green-line-right.png) 0 0/auto 100% no-repeat}
+    .paper-today__month {margin-top:-20px}
+    .paper-clip {background:rgba(0, 0, 0, 0) url("static/images/home/paper-clip.png") no-repeat scroll center top / 100% auto; height:156px; left:50%; margin-left:-118px; position:absolute; top:95px; width:262px; z-index:50}
 }
 
 @media screen and (max-width:767px) {
