@@ -147,6 +147,7 @@
     .paper-roll-wrap:after {z-index:40; left:50%; margin-left:118px; width:770px; background:url(static/images/home/paper-green-line-right.png) 0 0/auto 100% no-repeat}
     .paper-today__month {margin-top:-20px}
     .paper-clip {background:rgba(0, 0, 0, 0) url("static/images/home/paper-clip.png") no-repeat scroll center top / 100% auto; height:156px; left:50%; margin-left:-118px; position:absolute; top:95px; width:262px; z-index:50}
+    .header-video {margin-top:-40px}
 }
 
 @media screen and (max-width:767px) {
